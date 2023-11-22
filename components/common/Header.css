@@ -1,0 +1,13 @@
+/* styles.css */
+
+/* Hide the button on large screens */
+button {
+  display: none;
+}
+
+/* Show the button on medium to small screens */
+@media screen and (max-width: 768px) {
+  button {
+    display: block;
+  }
+}
