@@ -1,6 +1,11 @@
 /* styles.css */
 
 /* Hide the button on large screens */
+.beaut{
+  &:hover{
+    color:blue
+  }
+}
 button {
   width: 50%;
     height: 50px;

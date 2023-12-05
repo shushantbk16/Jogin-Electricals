@@ -17,11 +17,11 @@ export default function Choose() {
   return (
     <div id="about-us" >
     <div className="choose"  >
-      <div className="image" >
-        <Image src={light} alt="choose" style={{ marginLeft:"-270px", color: "transparent",height: "104vh",width:"700px"}} />
-      </div>
-      <div className="content">
-        <h2 style={{color:"black",fontSize:"40px"}}>Throwing Some Light On Us</h2>
+      {/* <div className="image" >
+        <Image src={light} alt="choose" style={{  color: "transparent",height: "104vh",width:"700px"}} />
+      </div> */}
+      <div className="content" style={{marginLeft:"10%"}}>
+        <h2 style={{color:"black",fontSize:"40px",}}>Throwing Some Light On Us</h2>
         {/* <p style={{fontSize:"15px",justifyContent:"center"}}>
         M/s. Jogin Electricals Belagavi Karnataka India is a leading contracting & manufacturing firm in electrical decorative lighting like pathway as well as median poles along with beautification of cities including UG cabling work, external, Internal, wiring for IT sectors, Hospitality, Corporate sector And HT, LT & Substation and outdoor lighting work in Karnataka, Goa, Orissa & West Bengal States since last 30 yrs. It has earned an excellent reputation over the years as being an effective, efficient and reliable contracting firm. Our core strengths are unparallel dedication towards our projects in terms of quality and time commitments. Our goal is to exceed the expectations of every client by offering quality execution of electrical Internal wiring for IT sectors, Hospitality, Corporate sector And HT & LT electrical assignments and other simultaneous activities like liasoning with local state electricity board & Government Electrical Inspectorate.
         </p> */}
@@ -32,11 +32,11 @@ Jogin Electricals offers a wide array of services, from UG cabling work to inter
 
 Our clientele includes Local bodies, PWD, HESCOM, KSHIP, City Development authorities, KRIDL, NHAI, and key industrial players such as Aequs, Squad Forging, Quest Global, AAIPL, Ashoka, ACC Cements, among others. Beyond new projects, Jogin Electricals is your reliable partner for the redevelopment and maintenance of existing electrical installations. We take pride in facilitating seamless project execution and contributing to a brighter, electrifying future for all.
         </p>
-        <button style={{backgroundColor:"black",width:"50%",height:"50px",borderRadius:"20px"}} onClick={onButtonClick}>Download Brochure</button>
+        {/* <button style={{backgroundColor:"black",width:"50%",height:"50px",borderRadius:"20px"}} onClick={onButtonClick}>Download Brochure</button> */}
         {/* <a href="../public/profile.pdf" target="_blank" download style={{color:"black"}}>Link</a> */}
       </div>
     </div>
-    <div style={{borderBottom:"3px solid black",marginTop:"-11.2%"}}>
+    <div style={{borderBottom:"3px solid black",marginTop:"-0.2%"}}>
 
     </div>
     </div>

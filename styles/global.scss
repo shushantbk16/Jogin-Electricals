@@ -131,7 +131,7 @@ opacity: 0;
   margin: 0 9rem;
   gap: 3rem;
   margin-bottom: 15%;
-  margin-top: 15%;
+  
   .image{
     width: 500px;
     height: 300px;
@@ -362,8 +362,8 @@ padding-top: 20%;
 //brand
 .brand-content {
   img {
-    height: 120px;
-    width: 120px;
+    height: 10vh;
+    width: 40%;
     transition: 0.5s ease-in-out;
     &:hover {
       opacity: 1;
@@ -394,6 +394,7 @@ footer {
   border-top: 1px solid rgba($white, 0.2);
   overflow: hidden;
   background-color: #443357;
+  margin-top: -5%;
   .logobg {
     line-height: 0;
     padding-top: $xl-1;
@@ -784,4 +785,65 @@ footer {
 
 .title-card{
   display: flex;
+}
+
+.marketplace-portfolio-gallery{
+  background-color: white;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   padding: 0.5rem;
+   border-radius: 1rem;
+   // width: 100%;
+   margin: 5%;
+   cursor: pointer;
+   text-align: center;
+   transition: 0.5s ease-in-out;
+   width:100% ;
+   height: 42vh;
+   &:hover {
+     transform: scale(1.1);
+    
+     
+       // opacity: 0.3;
+       .text-decoration{
+         opacity: 1;
+         color: black;
+         
+       }
+     
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+       rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+       rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   }
+   .image-portfolio {
+     margin-bottom: 1rem;
+     width: 100%;
+     
+   }
+   .name-portfolio {
+     
+     text-align: center;
+     color: #222222;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0.3rem 1rem;
+     font-size: 20px;
+    
+   }
+   .username-portfolio{
+     color: #555555;
+     font-size: 0.7rem;
+     padding: 0 1rem;
+     margin-bottom: 0.5rem;
+   }
+   .price-container {
+     padding: 0 1rem;
+     display: flex;
+     justify-content: space-between;
+     color: #02204e;
+   }
+}
+.beaut{
+  &:hover{
+    color:blue
+  }
 }

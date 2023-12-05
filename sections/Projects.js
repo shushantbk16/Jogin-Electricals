@@ -24,7 +24,7 @@ import {motion} from "framer-motion"
   </motion.div>
   
   
-  <div  style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",textAlign:"center"}}>
+  <div  style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",textAlign:"center",paddingBottom:"3%"}}>
   {
     projectarray.map( currentproject =>{
      return (
@@ -38,9 +38,9 @@ import {motion} from "framer-motion"
           hidden: { opacity: 0, scale: 1,y:60 },
         }}
       >
-      <div className="marketplace" style={{width:"75%",height:"50vh",backgroundColor:"white",border:"1px solid black",borderRadius:"4px",marginBottom:"15%",marginLeft:"15%",}}>
+      <div className="marketplace" style={{width:"75%",height:"48vh",backgroundColor:"white",border:"1px solid black",borderRadius:"4px",marginBottom:"10%",marginLeft:"15%",}}>
     <div>
-      <img src={currentproject.projectimg} width="50%" height="210px"/>
+      <img src={currentproject.projectimg} width="50%" height="180vh"/>
     </div>
     <div>
       <h4 style={{color:"black"}}>{currentproject.projecttitle}</h4>

@@ -23,10 +23,12 @@ const Footer = () => {
               <br />
               <h3>+91 9448000143</h3>
               <p>joginele@gmail.com</p>
+            
               <br />
               <p>KIADB Plot No. 7/B-II/2 B.K.Kangrali, Industrial Area Belagavi - 590010. KARNATAKA STATE (0831) 2489657</p>
               <br />
               {/* <button className="button-primary">Request for quote</button> */}
+              <a href="mailto:joginele@gmail.com"> <button style={{backgroundColor:"black",borderRadius:"10px",width:"20%",height:"5vh"}}>Contact Us</button></a>
             </div>
             <ul>
               <h3>COMPANY</h3>

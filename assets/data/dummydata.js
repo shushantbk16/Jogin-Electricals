@@ -208,12 +208,20 @@ export const client2 =[
   },
   {
     id: 9,
-    cover: "../images/squad.png",
+    cover: "../images/client-25.png",
   },
   {
     id: 10,
-    cover: "../images/client-9.png",
+    cover: "../images/client-23.png",
   },
+  {
+    id:11,
+    cover: "../images/client-20.jpg"
+  },
+  {
+    id:12,
+    cover:"../images/client-21.jpg"
+  }
  
 ]
 export const blogdata = [
@@ -431,7 +439,7 @@ export const projectDetails=[
       {
         projectimg:"../images/client-2-project-4.png",
         projecttitle:"Ramdurg",
-        projectdescription:"Providing and Laying of UG cable and Electrical poles i) Malawad shop to Janata hotel at Terbajar ii) At ward No 8 from Pattan complex to State highway (via iti oni) iii) Shree Maruti temple to Venkatesh Temple at Terabaja and other places at Ramdurga"
+        projectdescription:"Providing and Laying of UG cable and Electrical poles i) Malawad shop to Janata hotel at Terbajar ii) At ward No 8 from Pattan complex to State highway "
       },
       {
         projectimg:"../images/client-2-project-5.png",
@@ -449,11 +457,7 @@ export const projectDetails=[
         projecttitle:"Vijaypur",
         projectdescription:"Providing and fixing Decorative streetlight poles at sri Atal Bihari Vajapeyi road in Vijayapur city(From LBS market to APMC via Nehru market)"
       },
-      {
-        projectimg:"../images/client-3-project-2.png",
-        projecttitle:"Shiralkopp",
-        projectdescription:"Providing New Decorative Central Street Lights Single Pole in Left and Right Hand Side in Zig Zag Fashion from Ch. 19+140 to 20+750 KMs in Shiralkopp Town Package M-7B WAEP-3 Shikaripur Anvatti Road."
-      },
+      
      
      
       ]
@@ -479,7 +483,7 @@ export const projectDetails=[
     },{
       projectimg:"../images/client-3-project-4.png",
       projecttitle:"Dharwad",
-      projectdescription:"Improvement/Widening to 4 lane divided carriageaway to road from Jubli circle on NH-4 at Km.427.68 to Narendra bypass at Km.433.30 (SH-73 from Km.229.100 to 223.600) in Dharwad city limits Job No.NH-4-KNT-2016-17-831"
+      projectdescription:"Improvement/Widening to 4 lane divided carriageaway to road from Jubli circle on NH-4 at Km.427.68 to Narendra bypass at Km.433.30 in Dharwad city limits Job No.NH-4-KNT-2016-17-831"
     }
   ]
   },
@@ -505,6 +509,243 @@ export const projectDetails=[
       projecttitle:"Ajad Galli",
       projectdescription:"Providing Street Light at Azad Galli, Belagavi."
     }]
+  },
+  {
+    client:"Karnataka State Highways Improvement Project (KSHIP)",
+    theirprojects:[{
+      
+        projectimg:"../images/client-3-project-2.png",
+        projecttitle:"Shiralkopp",
+        projectdescription:"Providing New Decorative Central Street Lights Single Pole in Left and Right Hand Side in Zig Zag Fashion from Ch. 19+140 to 20+750 KMs in Shiralkopp Town Package M-7B WAEP-3."
+      
+    }]
+  },
+  {
+    client:"Commissioner, CC, Belgaum",
+    theirprojects:[{
+      projectimg:"../images/client-7-project-1.png",
+      projecttitle:"Hanuman Nagar ",
+      projectdescription:"Providing Decorative Street lightings and poles at Hanuman nagar from Race course Corner TV Center, Belagavi."
+    },
+    {
+      projectimg:"../images/client-7-project-2.png",
+      projecttitle:"Patil Galli",
+      projectdescription:"Providing Surveillance Cameras for traffic Management & shifting of electrical poles in Patil galli, Belagavi."
+    },{
+      projectimg:"../images/client-7-project-3.png",
+      projecttitle:"Darbar Galli",
+      projectdescription:"Shifting Of HT/LT Line and DTC at from Darbar galli (Khade Bazar Main road) to Shetty galli corner, in Belagavi ."
+    },
+    {
+      projectimg:"../images/client-7-project-4.png",
+      projecttitle:"Shahapur Khade Bazar",
+      projectdescription:"Shifting of HT/LT line and DTC, Conversion of Overhead line to UG cable system (only LT line) & Decorative street light arrangements at Khade Bazar, Shahapur Road Belagavi."
+    }
+  ]
+  },
+  {
+    client:"National Highway Authority of India",
+    theirprojects:[
+      {
+        projectimg:"../images/client-3-project-4.png",
+        projecttitle:"Dharwad",
+        projectdescription:"Improvement/Widening to 4 lane divided carriageaway to road from Jubli circle on NH-4 at Km.427.68 to Narendra bypass at Km.433.30 in Dharwad city limits Job No.NH-4-KNT-2016-17-831"
+      }
+    ]
+  },
+  {
+    
+      client:"Commissioner, CC, Vijayapur",
+      theirprojects:[
+        {
+          projectimg:"../images/client-8-project-1.png",
+          projecttitle:"Vijayapur",
+          projectdescription:"Providing and fixing Decorative Streetlight poles at Sri Atal Bihari Vajapeyi road in Vijayapur city (From LBS market to APMC via Nehru market)"
+        }
+      ]
+    
+  },
+  {
+    client:"The Commissioner , Belagavi Urban Development Authority",
+    theirprojects:[{
+      projectimg:"../images/client-9-project-1.png",
+      projecttitle:"Kanbargi",
+      projectdescription:"Shifting of 33 KV single circuit overhead Garrison Engineer Line emanating from 110/33/11 KV MUSS Kanabargi  by 33KV, HT UG XPLE Armoured earthed system cable of size 3 core 300 Sqmm"
+    }]
   }
 
+]
+
+
+ export const showcase4=[
+  {
+    id:1,
+    cover:"../images/gallery-1.png"
+  },
+  {
+    id:2,
+    cover:"../images/gallery-2.png"
+  },
+  {
+    id:3,
+    cover:"../images/gallery-3.png"
+  },
+  {
+    id:4,
+    cover:"../images/gallery-4.png"
+  },
+  {
+    id:5,
+    cover:"../images/gallery-5.png"
+  },
+  {
+    id:6,
+    cover:"../images/gallery-6.png"
+  },
+  {
+    id:7,
+    cover:"../images/gallery-7.png"
+  },
+  {
+    id:8,
+    cover:"../images/gallery-8.png"
+  },
+  {
+    id:9,
+    cover:"../images/gallery-9.png"
+  },
+  {
+    id:10,
+    cover:"../images/gallery-10.png"
+  },{
+    id:11,
+    cover:"../images/gallery-11.png"
+  }
+  ,{
+    id:12,
+    cover:"../images/gallery-12.png"
+  }
+  ,{
+    id:13,
+    cover:"../images/gallery-13.png"
+  },
+  {
+    id:14,
+    cover:"../images/gallery-14.png"
+  },
+  {
+    id:15,
+    cover:"../images/gallery-15.png"
+  },
+  {
+    id:16,
+    cover:"../images/gallery-16.png"
+  },
+  {
+    id:17,
+    cover:"../images/gallery-17.png"
+  },
+  {
+    id:18,
+    cover:"../images/gallery-18.png"
+  },
+  {
+    id:19,
+    cover:"../images/gallery-19.png"
+  },
+  {
+    id:20,
+    cover:"../images/gallery-20.png"
+  }
+]
+export const client3 =[
+  {
+    id: 7,
+    cover: "../images/client-26.png",
+  },
+  {
+    id: 8,
+    cover: "../images/client-22.png",
+  },
+  {
+    id: 9,
+    cover: "../images/client-28.jpeg",
+  },
+  {
+    id: 10,
+    cover: "../images/client-29.png",
+  },
+  {
+    id:11,
+    cover: "../images/client-30.jpg"
+  },
+  {
+    id:12,
+    cover:"../images/client-31.png"
+  }
+ 
+]
+
+
+export const showcase5=[
+  {
+    id:1,
+    cover:"../images/site-.png"
+  },
+  {
+    id:2,
+    cover:"../images/site-1.png"
+  },
+  {
+    id:3,
+    cover:"../images/site-2.png"
+  },
+  {
+    id:4,
+    cover:"../images/site-3.png"
+  },
+  {
+    id:5,
+    cover:"../images/site-4.png"
+  },
+  {
+    id:6,
+    cover:"../images/site-5.png"
+  },
+  {
+    id:7,
+    cover:"../images/site-6.png"
+  },
+  {
+    id:8,
+    cover:"../images/site-7.png"
+  },
+  {
+    id:9,
+    cover:"../images/site-8.png"
+  },
+  {
+    id:10,
+    cover:"../images/site-9.png"
+  },{
+    id:11,
+    cover:"../images/site-10.png"
+  }
+  ,{
+    id:12,
+    cover:"../images/site-11.png"
+  }
+  ,{
+    id:13,
+    cover:"../images/site-12.png"
+  },
+  {
+    id:14,
+    cover:"../images/site-13.png"
+  },
+  {
+    id:15,
+    cover:"../images/site-15.png"
+  },
+  
 ]

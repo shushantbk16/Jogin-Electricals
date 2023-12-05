@@ -42,11 +42,12 @@ const Header = () => {
       <header>
         <div className="container" style={{height:"50px",backgroundColor:navColor,marginLeft:"0px",transition:"0.3s ease-in"}}>
           <div className="logo" style={{marginLeft:"5%"}}>
-             
             <Link href="/">
             <div className="title-card">
-              <Image src={joginlogo} width={40} height={40} alt="image" style={{    marginTop:"12%", height:"37px"}}/>
+              <Image src={joginlogo} width={40} height={40} alt="image" style={{    marginTop:"6%", height:"4vh",borderRadius:"5px",width:"2rem"}}/>
+              <div style={{marginTop:"-6%"}}> 
               <TitleLogo title="JoginElectricals" caption="" className="logomin" />
+              </div>
               </div>
                {/* <Image src="./logo.jpg" alt="choose" width={20} height={20}/> */}
             </Link>
@@ -58,7 +59,8 @@ const Header = () => {
           >
             <Link
               href="/"
-              className={activeLink == "/" ? "activeLink" : "none"}
+              // className={activeLink == "/" ? "activeLink" : "none"}
+              className="beaut"
               style={{color:"white"}}
             >
               Home
@@ -66,35 +68,40 @@ const Header = () => {
             
             <Link
               href="/#experTise"
-              className={activeLink == "#expertise" ? "activeLink" : "none"}
+              // className={activeLink == "#expertise" ? "activeLink" : "none"} 
+              className="beaut"
               style={{color:"white"}}
             >
               Services
             </Link>
             <Link
               href="/projects"
-              className={activeLink == "#portFolio" ? "activeLink" : "none"}
+              // className={activeLink == "#portFolio" ? "activeLink" : "none"}
+              className="beaut"
               style={{color:"white"}}
             >
               Our Projects
             </Link>
             <Link
               href="/#about-us"
-              className={activeLink == "#about-us" ? "activeLink" : "none"}
+              // className={activeLink == "#about-us" ? "activeLink" : "none"}
+              className="beaut"
               style={{color:"white"}}
             >
              About
             </Link>
             <Link
               href="/gallery"
-              className={activeLink == "#portFolio" ? "activeLink" : "none"}
+              // className={activeLink == "#portFolio" ? "activeLink" : "none"}
+              className="beaut"
               style={{color:"white"}}
             >
               Gallery
             </Link>
             <Link
               href="/#foot"
-              className={activeLink == "#foot" ? "activeLink" : "none"}
+              // className={activeLink == "#foot" ? "activeLink" : "none"}
+              className="beaut"
               style={{color:"white"}}
             >
               Contact
