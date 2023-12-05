@@ -1,21 +1,35 @@
+// Home
+.text-decoration{
+opacity: 0;
+}
+.marketplace-portfolio:hover .text-decoration{
+  opacity: 1;
+  top:10%;
+ 
+}
+
+
+
 /*  Hero Section */
 .hero {
   text-align: center;
   margin-top: -60px;
   padding: $xl-6 0;
   padding-top: $xll-3;
-  height: 100vh !important;
+  height: 102vh !important;
   overflow: hidden !important;
+  background-image: url("../assets/images/LED-lights-delhi.jpg");
+  background-size: 100% 100%;
   position: relative;
   &::before {
     content: "";
     position: absolute;
     top: 0;
     left: -40%;
-    width: 180%;
-    height: 200vh;
-    // background-image: url("../assets/images/art-top-cropp.jpg");
-    background-color:lightcoral;
+    width: 100%;
+    height: 100vh;
+    
+    // background-color:lightcoral;
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -32,6 +46,7 @@
   .sub-heading {
     display: flex;
     justify-content: center;
+    color: white;
     .titleSm {
       margin: 0 $xl-1;
     }
@@ -41,6 +56,9 @@
       color: $green;
     }
   }
+}
+.cont{
+  margin-top: 5%;
 }
 // .expe{
 //   width: 70%;
@@ -84,18 +102,25 @@
 
 // expertise
 .expertise {
-  background-color:lightgrey;
+  background-color:black;
   padding-bottom: 150px;
   .card-img {
     height: 300px;
   }
+  // margin-left: 7%;
 
 }
+.expe{
+  margin-left: 9%;
+}
 .card{
+  width: 70%;
   &:hover{
     transform: scale(1.1);
   }
 }
+
+
 // Choose
 
 .choose{
@@ -113,6 +138,8 @@
   }
   .content {
     display: flex;
+    margin-top: 20%;
+    margin-left: -27%;
     justify-content: center;
     flex-direction: column;
     gap: 3rem;
@@ -154,11 +181,12 @@
   padding-bottom: 5%;
   text-align: center;
 color: #171e20;
-padding-top: 10%;
+padding-top: 20%;
+
 }
 
 .brand-content{
-  padding-top: 8%;
+  padding-top: 0%;
   text-align: center;
 }
 .brand-container{
@@ -249,7 +277,7 @@ padding-top: 10%;
   
 }
 .showcase {
-  background-color:lightcoral;
+  // background-color:lightcoral;
   margin-top: -60px;
   .card-img {
     height: 400px;
@@ -334,7 +362,8 @@ padding-top: 10%;
 //brand
 .brand-content {
   img {
-    opacity: 0.5;
+    height: 120px;
+    width: 120px;
     transition: 0.5s ease-in-out;
     &:hover {
       opacity: 1;
@@ -589,7 +618,7 @@ footer {
 
 // portfolio
 .portfolio{
-  background-color: lightcoral;
+  // background-color: lightcoral;
 }
 
 
@@ -624,7 +653,8 @@ footer {
 }
 
 .cards .red {
-  background-color: #007e9e;
+  // background-color: #007e9e;
+  background-color: white;
 }
 
 .cards .blue {
@@ -654,6 +684,7 @@ footer {
 .cards .card p.tip {
   font-size: 1em;
   font-weight: 700;
+  color: black;
 }
 
 .cards .card p.second-text {
@@ -675,11 +706,12 @@ footer {
 
 .marketPlaces-portfolio {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(5,0.2fr);
+ 
   
-  margin-top: 5%;
   gap: 2rem;
   margin-bottom: 8%;
+  padding-right: 3%;
 }
 
 .marketplace-portfolio {
@@ -692,18 +724,31 @@ footer {
     cursor: pointer;
     text-align: center;
     transition: 0.5s ease-in-out;
-    width: 300px;
-    height: 330px;
+    width:100% ;
+    height: 42vh;
     &:hover {
       transform: scale(1.1);
+     
+      .image-portfolio{
+        opacity: 0.2;
+      }.name-portfolio{
+        opacity: 0.2;
+      }
+        // opacity: 0.3;
+        .text-decoration{
+          opacity: 1;
+          color: black;
+          
+        }
+      
       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
     .image-portfolio {
       margin-bottom: 1rem;
-      width: 150px;
-      height: 250px;
+      width: 100%;
+      
     }
     .name-portfolio {
       
@@ -711,12 +756,13 @@ footer {
       color: #222222;
       align-items: center;
       justify-content: space-between;
-      padding: 0 1rem;
+      padding: 0.3rem 1rem;
+      font-size: 20px;
      
     }
     .username-portfolio{
       color: #555555;
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       padding: 0 1rem;
       margin-bottom: 0.5rem;
     }
@@ -728,3 +774,14 @@ footer {
     }
 }
 
+
+#progress{
+  background-image: url("../assets/images/bgm.jpg");
+  background-size: 100% 100%;
+  position: relative;
+  height: 103vh;
+}
+
+.title-card{
+  display: flex;
+}

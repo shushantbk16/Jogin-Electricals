@@ -3,52 +3,49 @@ import { Title } from "./common/Title";
 import { expertise } from "@/assets/data/dummydata";
 import { Card } from "./common/Card";
 import { motion } from "framer-motion";
+import { showcase  } from "@/assets/data/dummydata";
 
 const Expertise = () => {
   return (
     <>
-      <section className="expertise">
-        <div className="container">
-          <div className="heading-title">
+      <section className="expertise" >
+        <div className="container" >
+       
+          <div className="heading-title"  style={{paddingTop:"10%",paddingBottom:"2%"}}>
+          <div id="experTise" style={{height:"50px"}}></div>
           <motion.div
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 1.0 }}
         variants={{
           visible: { opacity: 1, scale: 1, x: 0, y: 0 },
-          hidden: { opacity: 0, scale: 0.5 },
+          hidden: { opacity: 0, scale: 1 ,y:60 },
         }}
       >
+      
         <Title title="Our expertise" />
-            <p>
-              Software is our playground, and expertise is our swingset. We're
-              the digital wizards who make tech seem like child's play, one byte
-              at a time.
+        </motion.div>
+        <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 1.0 }}
+        variants={{
+          visible: { opacity: 1, scale: 1, x: 0, y: 0 },
+          hidden: { opacity: 0, scale: 1 ,y:60 },
+        }}
+      >
+            <p >
+            Company undertakes following type of work: Contracting & Engineering from Designing to Project Execution for the following trade as Beautification of cities by providing UG cable system with decorative lighting, Electrical internal wiring, Telecommunications, Data Networking, Structured cabling and Energy Management & Conservation.
             </p>
-      </motion.div>
+            </motion.div>
             
           </div>
-          <div className="hero-content expe grid-4">
-          <motion.div
-            whileInView="visible"
-            viewport={{ once: true }}
-            initial="hidden"
-            variants={{
-              visible: { opacity: 1, scale: 1, y: 0 },
-              hidden: { y: 60, opacity: 0, scale: 0.5 },
-            }}
-            transition={{
-              type: "spring",
-              duration: "1.5",
-              ease: "easeInOut",
-              delay: "0.5",
-            }}
-            style={{ top: "-22px" }}
-            >
-            <Card data={expertise[0]} key={expertise[0].id} caption="learn more" />
-            </motion.div>
-
+          
+          <div className="marketPlaces-portfolio ">
+        {showcase.map((item) => {
+          return (
             <motion.div
             whileInView="visible"
             viewport={{ once: true }}
@@ -61,51 +58,29 @@ const Expertise = () => {
               type: "spring",
               duration: "1.5",
               ease: "easeInOut",
-              delay: "0.7",
+              // delay: "0.",
             }}
             style={{ top: "-22px" }}
             >
-            <Card data={expertise[1]} key={expertise[1].id} caption="learn more" />
+            <div className="marketplace-portfolio" style={{position:"relative"}}>
+              <div className="image-portfolio ">
+                <img src={item.cover} alt="marketplace-portfolio "  style={{ width:"100%",height: "30vh"}}/>
+              </div>
+              <div className="name-portfolio ">
+                <h4 style={{fontSize:"15px"}}>{item.title}</h4>
+               
+              </div>
+              <h1 className="text-decoration" style={{position:"absolute",color:"black",fontSize:"15px",justifyContent:"center",top:"26%",font:"menu"}}>{item.description}</h1>
+              {/* <h6 className="username-portfolio ">{item.catgeory}</h6> */}
+             
+            </div>
+           
+            
             </motion.div>
-
-            <motion.div
-            whileInView="visible"
-            viewport={{ once: true }}
-            initial="hidden"
-            variants={{
-              visible: { opacity: 1, scale: 1, y: 0 },
-              hidden: { y: 60, opacity: 0, scale: 0.5 },
-            }}
-            transition={{
-              type: "spring",
-              duration: "1.5",
-              ease: "easeInOut",
-              delay: "0.9",
-            }}
-            style={{ top: "-22px" }}
-            >
-            <Card data={expertise[2]} key={expertise[2].id} caption="learn more" />
-            </motion.div>
-
-            <motion.div
-            whileInView="visible"
-            viewport={{ once: true }}
-            initial="hidden"
-            variants={{
-              visible: { opacity: 1, scale: 1, y: 0 },
-              hidden: { y: 60, opacity: 0, scale: 0.5 },
-            }}
-            transition={{
-              type: "spring",
-              duration: "1.5",
-              ease: "easeInOut",
-              delay: "1.1",
-            }}
-            style={{ top: "-22px" }}
-            >
-            <Card data={expertise[3]} key={expertise[3].id} caption="learn more" />
-            </motion.div>
-          </div>
+          );
+        })}
+         </div>
+        
         </div>
       </section>
     </>

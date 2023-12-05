@@ -2,9 +2,9 @@
 
 .title-logo {
   padding-top: 10%;
-  font-size: $xl-6;
+  font-size: $xl-1;
   -webkit-text-stroke: 1px $white;
-  color: transparent;
+  // color:black;
   span {
     font-size: $xl-5;
     -webkit-text-stroke: $green;
@@ -12,22 +12,24 @@
   }
 }
 .logobg {
+  color: white;
   font-size: $xll;
+  margin-top: 5%;
   span {
     font-size: 50px;
   }
 }
 .titleSm {
-  font-size: $xl-3;
+  font-size: 80px;
   font-weight: 500;
   letter-spacing: 2px;
-  color: #171e20;
+  color: white;
 }
 .title {
   font-size: $xl-5;
   font-weight: 500;
   background: white;
-  color: #171e20;
+  color:wheat;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -66,10 +68,10 @@
   text-align: center;
   max-width: 65%;
   margin: auto;
-  padding-top: $xll-3;
-  padding-bottom: $xl-4;
+  padding-top: 20%;
+  // padding-bottom: $xl-4;
   p {
-    margin: $xl-6 0;
+    margin: 22px 0;
     color: rgba($white, 0.5);
   }
 }

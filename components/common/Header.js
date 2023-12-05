@@ -1,14 +1,38 @@
 import Link from "next/link";
 import { TitleLogo } from "./Title";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useEffect, useState} from "react";
+import { uselocation } from 'react-router-dom';
 import { RiMenu4Line } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
+import joginlogo from "@/assets/images/je-logo.png"
+import Image from "next/image";
+
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("");
   const [open, setOpen] = useState(false);
-
+  // const [navbg, setnavbg] = react.usestate("transparent");
+  // const location = uselocation();
+  const [navColor, setnavColor] = useState("transparent");
+  // useEffect(() => {
+  //   if (window.location.pathname === "/projects") {
+  //     setnavColor("#ffffff");
+  //   } 
+  // }, [location]);
+  const listenScrollEvent = () => {
+    
+    window.scrollY > 200 ? setnavColor("#000000") : setnavColor("transparent");
+    
+   
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent);
+    
+    return () => {
+      window.removeEventListener("scroll", listenScrollEvent);
+    };
+  }, []);
   const router = useRouter();
   useEffect(() => {
     setActiveLink(router.pathname);
@@ -16,50 +40,69 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className="container" style={{height:"23px"}}>
-          <div className="logo">
+        <div className="container" style={{height:"50px",backgroundColor:navColor,marginLeft:"0px",transition:"0.3s ease-in"}}>
+          <div className="logo" style={{marginLeft:"5%"}}>
+             
             <Link href="/">
-              <TitleLogo title="Recourse" caption="" className="logomin" />
+            <div className="title-card">
+              <Image src={joginlogo} width={40} height={40} alt="image" style={{    marginTop:"12%", height:"37px"}}/>
+              <TitleLogo title="JoginElectricals" caption="" className="logomin" />
+              </div>
+               {/* <Image src="./logo.jpg" alt="choose" width={20} height={20}/> */}
             </Link>
           </div>
           <nav
             className={open ? "openMenu" : "closeMenu"}
             onClick={() => setOpen(null)}
+            style={{paddingLeft:"20%"}}
           >
             <Link
               href="/"
               className={activeLink == "/" ? "activeLink" : "none"}
+              style={{color:"white"}}
             >
               Home
             </Link>
+            
             <Link
-              href="/portfolio"
-              className={activeLink == "/portfolio" ? "activeLink" : "none"}
-            >
-              Portfolio
-            </Link>
-            <Link
-              href="/services"
-              className={activeLink == "/services" ? "activeLink" : "none"}
+              href="/#experTise"
+              className={activeLink == "#expertise" ? "activeLink" : "none"}
+              style={{color:"white"}}
             >
               Services
             </Link>
             <Link
-              href="/services"
-              className={activeLink == "/about" ? "activeLink" : "none"}
+              href="/projects"
+              className={activeLink == "#portFolio" ? "activeLink" : "none"}
+              style={{color:"white"}}
+            >
+              Our Projects
+            </Link>
+            <Link
+              href="/#about-us"
+              className={activeLink == "#about-us" ? "activeLink" : "none"}
+              style={{color:"white"}}
             >
              About
             </Link>
             <Link
-              href="/contact"
-              className={activeLink == "/contact" ? "activeLink" : "none"}
+              href="/gallery"
+              className={activeLink == "#portFolio" ? "activeLink" : "none"}
+              style={{color:"white"}}
+            >
+              Gallery
+            </Link>
+            <Link
+              href="/#foot"
+              className={activeLink == "#foot" ? "activeLink" : "none"}
+              style={{color:"white"}}
             >
               Contact
             </Link>
           </nav>
-          <button className="button-hidden" onClick={() => setOpen(!open)}>
+          {/* <button className="button-hidden" onClick={() => setOpen(!open)}>
             {open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}
-          </button>
+          </button> */}
         </div>
       </header>
     </>

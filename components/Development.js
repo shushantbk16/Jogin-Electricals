@@ -1,42 +1,56 @@
 import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
+import d1 from "../assets/images/d1.jpeg";
+import d2 from "../assets/images/d2.jpeg"
+import d3 from "../assets/images/d3.jpeg"
+import d4 from "../assets/images/d4.jpeg"
+import d5 from "../assets/images/d5.jpeg"
+import d6 from "../assets/images/d6.jpeg"
 const Development = () => {
   return (
     
-    <div >
-      <div className='heading-title-brand '>
-            <h1 style={{color:"black",fontSize:"30px"}}>STEPS</h1>
+    <div id="progress">
+      <div className='heading-title-brand ' style={{paddingTop:"10%"}}>
+            <h1 style={{color:"black",fontSize:"40px"}}>DEVELOPMENT PROCESS</h1>
           </div>
-      <div class="cards">
+      <div class="cards" >
     <div class="card red">
-        <p class="tip">Planning</p>
-        <p class="second-text">Absolutely, crafting a compelling description for a planning software product involves highlighting its key features, benefits, and unique selling points</p>
+        
+        <Image src={d3} width={200} height={200} style={{borderRadius:"20px"}} />
+        <p class="tip">Designing & Engineering</p>
+       
     </div>
-    <div class="card blue">
-        <p class="tip">Design</p>
-        <p class="second-text">Recoursetech is the go-to design solution for professionals and enthusiasts alike, offering a robust suite of tools to bring your wildest imaginations to life.</p>
+    <div class="card red">
+        <Image src={d2} width={200} height={200} style={{borderRadius:"20px"}} />
+        <p class="tip">Fabrication</p>
+        
     </div>
-    <div class="card green">
-        <p class="tip">Development</p>
-        <p class="second-text">Absolutely! When describing a development software product, it's crucial to emphasize its functionality, versatility, and how it streamlines the development process.</p>
+    <div class="card red">
+    <Image src={d1} width={200} height={200} style={{borderRadius:"20px"}} />
+        <p class="tip">Hot dip Zinc galvanizing</p>
+       
     </div>
-    <div class="card green">
-        <p class="tip">Testing</p>
-        <p class="second-text">describing a testing software product involves showcasing its efficiency, versatility, and how it simplifies the testing process. </p>
+    <div class="card red">
+    <Image src={d4} width={200} height={200} style={{borderRadius:"20px"}} />
+        <p class="tip">Polishing and Painting</p>
+        
     </div>
-    <div class="card green">
-        <p class="tip">Quality Assurance</p>
-        <p class="second-text">showcasing the benefits and capabilities of a quality assurance software product involves highlighting its efficiency, comprehensive testing features and overall software development lifecycle</p>
+    <div class="card red">
+    <Image src={d5} width={200} height={200} style={{borderRadius:"20px"}} />
+        <p class="tip">Quality Inspection </p>
+       
     </div>
-    <div class="card green">
-        <p class="tip">Maintenance</p>
-        <p class="second-text">Describing a maintenance software product involves emphasizing its capabilities in managing and optimizing maintenance operations. </p>
+    <div class="card red">
+    <Image src={d6} width={200} height={200} style={{borderRadius:"20px"}} alt="image"/>
+        <p class="tip">Packaging & Shipping</p>
+        
     </div>
 </div>
        
      
     </div>
+   
     
   
   
