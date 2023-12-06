@@ -91,7 +91,7 @@ import {motion} from 'framer-motion'
             }}
             // style={{ top: "-22px" }}
             >
-        <TitleSm title="A QUALITY COMMITMENT"/> 
+        <TitleSm title="An ISO 9001:2015 certified company"/> 
         </motion.div>
         
       </div>

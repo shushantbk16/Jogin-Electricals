@@ -37,7 +37,7 @@ const Expertise = () => {
         }}
       >
             <p >
-            Company undertakes following type of work: Contracting & Engineering from Designing to Project Execution for the following trade as Beautification of cities by providing UG cable system with decorative lighting, Electrical internal wiring, Telecommunications, Data Networking, Structured cabling and Energy Management & Conservation.
+            Company undertakes following type of work: Contracting & Engineering from Designing to Project Execution for the following trade as Beautification of cities by providing UG cable system with decorative lighting, Electrical internal wiring, DG sets, Highway Electrification Data Networking, Structured cabling and Energy Management & Conservation.
             </p>
             </motion.div>
             

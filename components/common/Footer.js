@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="container footer" id="foot" style={{marginLeft:"3%"}}>
+        <div className="container footer" id="foot" style={{marginLeft:"3%",}}>
           <div className="grid-4">
             <div className="logo">
               <TitleLogo title="JoginElectricals" caption="" className="logobg" />
@@ -22,38 +22,51 @@ const Footer = () => {
               <br />
               <br />
               <h3>+91 9448000143</h3>
-              <p>joginele@gmail.com</p>
+              <p>projects@joginelectricals.com</p>
             
               <br />
               <p>KIADB Plot No. 7/B-II/2 B.K.Kangrali, Industrial Area Belagavi - 590010. KARNATAKA STATE (0831) 2489657</p>
               <br />
               {/* <button className="button-primary">Request for quote</button> */}
-              <a href="mailto:joginele@gmail.com"> <button style={{backgroundColor:"black",borderRadius:"10px",width:"20%",height:"5vh"}}>Contact Us</button></a>
+              <a href="mailto:projects@joginelectricals.com"> <button style={{backgroundColor:"black",borderRadius:"10px",width:"20%",height:"5vh"}}>Contact Us</button></a>
             </div>
             <ul>
               <h3>COMPANY</h3>
               <li>
-                <Link href="/">About agency</Link>
+                <Link href="/#about-us">About </Link>
               </li>
 
               <li>
-                <Link href="/">Contact</Link>
+                <Link href="/#foot">Contact</Link>
               </li>
             </ul>
-            <ul>
+            <ul style={{marginLeft:"10%"}}>
               <h3>SERVICES</h3>
               <li>
-                <Link href="/">Electrical</Link>
+                <Link href="/#experTise">Manufacturing Decorative street Light Poles</Link>
               </li>
               <li>
-                <Link href="/">Telecommunication</Link>
+                <Link href="/#experTise">Electrical supergrade licensed contractors</Link>
               </li>
               <li>
-                <Link href="/">Computer Structure</Link>
+                <Link href="/#experTise">Designing of electrical projects</Link>
               </li>
-              {/* <li>
-                <Link href="/">E-Commerce</Link>
-              </li> */}
+              <li>
+                <Link href="/#experTise">HT UG cable / LT UG cable</Link>
+              </li>
+              <li>
+                <Link href="/#experTise">Transformer centres</Link>
+              </li>
+              <li>
+                <Link href="/#experTise">DG Sets</Link>
+              </li>
+              <li>
+                <Link href="/#experTise">Building Internal Wiring</Link>
+              </li>
+              <li>
+                <Link href="/#experTise">Highway , Industrial and Layout Electrification</Link>
+              </li>
+              
             </ul>
             {/* <ul>
               <h3>CONNECT</h3>

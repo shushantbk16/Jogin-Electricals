@@ -55,7 +55,7 @@ const Header = () => {
           <nav
             className={open ? "openMenu" : "closeMenu"}
             onClick={() => setOpen(null)}
-            style={{paddingLeft:"20%"}}
+            style={{paddingLeft:"20%",paddingTop:"0.5%"}}
           >
             <Link
               href="/"
