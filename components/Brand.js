@@ -8,7 +8,7 @@ const Brand = () => {
       <section className='brand'>
         <div className='brand-container'>
           <div className='heading-title-brand ' style={{paddingTop:"20%"}}>
-            <h1 style={{color:"black",fontSize:"30px"}}>WE ARE PROUD TO WORK WITH THESE COMPANIES</h1>
+            <h1  className="company">WE ARE PROUD TO WORK WITH THESE COMPANIES</h1>
           </div>
           <div className='brand-content grid-6 py' style={{paddingTop:"2%"}}>
             {brand.map((item) => (
@@ -17,7 +17,7 @@ const Brand = () => {
               </div>
             ))}
           </div>
-          <div className='brand-content grid-6 py' >
+          {/* <div className='brand-content grid-6 py' >
             {client2.map((item) => (
               <div className='client' key={item.id}>
                 <img src={item.cover} alt={item.id} width='100px' height='100px' />
@@ -30,7 +30,7 @@ const Brand = () => {
                 <img src={item.cover} alt={item.id} width='100px' height='100px' />
               </div>
             ))}
-          </div>
+          </div> */}
           
           {/* <div className="container">
             <div className="">

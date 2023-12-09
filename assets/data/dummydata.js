@@ -195,9 +195,6 @@ export const brand = [
     id: 6,
     cover: "../images/images (1).png",
   },
-  
-];
-export const client2 =[
   {
     id: 7,
     cover: "../images/1.jpeg",
@@ -221,9 +218,35 @@ export const client2 =[
   {
     id:12,
     cover:"../images/client-21.jpg"
+  },
+  {
+    id: 13,
+    cover: "../images/client-26.png",
+  },
+  {
+    id: 14,
+    cover: "../images/client-22.png",
+  },
+  {
+    id: 15,
+    cover: "../images/client-28.jpeg",
+  },
+  {
+    id: 16,
+    cover: "../images/client-29.png",
+  },
+  {
+    id:17,
+    cover: "../images/client-30.jpg"
+  },
+  {
+    id:18,
+    cover:"../images/client-31.png"
   }
  
-]
+  
+];
+
 export const blogdata = [
   {
     id: 1,
@@ -659,30 +682,7 @@ export const projectDetails=[
   }
 ]
 export const client3 =[
-  {
-    id: 7,
-    cover: "../images/client-26.png",
-  },
-  {
-    id: 8,
-    cover: "../images/client-22.png",
-  },
-  {
-    id: 9,
-    cover: "../images/client-28.jpeg",
-  },
-  {
-    id: 10,
-    cover: "../images/client-29.png",
-  },
-  {
-    id:11,
-    cover: "../images/client-30.jpg"
-  },
-  {
-    id:12,
-    cover:"../images/client-31.png"
-  }
+  
  
 ]
 

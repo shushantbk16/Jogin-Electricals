@@ -21,7 +21,7 @@
 }
 
 .grid-6 {
-  @include grid(repeat(6, 1fr), 0px);
+  @include grid(repeat(6, 1fr), 2rem);
 }
 
 @media screen and (max-width: 800px) {
@@ -32,15 +32,17 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
   .container {
-    max-width: 100%;
+    max-width: 108%;
     padding: 0 20px;
   }
   .grid-2,
   .grid-3,
-  .grid-6,
+  .grid-6 {
+    @include grid(repeat(3, 0.4fr), 15px);
+  }
   .grid-4 {
-    @include grid(repeat(1, 1fr), 50px);
+    @include grid(repeat(1, 1.1fr), 10px);
   }
 }

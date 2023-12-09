@@ -28,9 +28,9 @@ const Footer = () => {
               <p>KIADB Plot No. 7/B-II/2 B.K.Kangrali, Industrial Area Belagavi - 590010. KARNATAKA STATE (0831) 2489657</p>
               <br />
               {/* <button className="button-primary">Request for quote</button> */}
-              <a href="mailto:projects@joginelectricals.com"> <button style={{backgroundColor:"black",borderRadius:"10px",width:"20%",height:"5vh"}}>Contact Us</button></a>
+              <a href="mailto:projects@joginelectricals.com"> <button className="contact-button" style={{    backgroundColor:"black"}}>Contact Us</button></a>
             </div>
-            <ul>
+            <ul className="footer-services">
               <h3>COMPANY</h3>
               <li>
                 <Link href="/#about-us">About </Link>
@@ -40,7 +40,7 @@ const Footer = () => {
                 <Link href="/#foot">Contact</Link>
               </li>
             </ul>
-            <ul style={{marginLeft:"10%"}}>
+            <ul style={{marginLeft:"10%"}} className="footer-services">
               <h3>SERVICES</h3>
               <li>
                 <Link href="/#experTise">Manufacturing Decorative street Light Poles</Link>

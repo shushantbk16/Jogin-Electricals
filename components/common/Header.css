@@ -1,13 +1,13 @@
 /* styles.css */
 
 /* Hide the button on large screens */
-button {
+.button-hidden {
   display: none;
 }
 
 /* Show the button on medium to small screens */
-@media screen and (max-width: 768px) {
-  button {
+@media screen and (max-width: 640px) {
+  .button-hidden {
     display: block;
   }
 }

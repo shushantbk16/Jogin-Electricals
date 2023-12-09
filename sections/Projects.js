@@ -17,14 +17,15 @@ import {motion} from "framer-motion"
         }}
       >
   <div>
-     <h4 style={{color:'black',fontSize:"2rem",marginTop:"2rem",marginBottom:"2rem"}}>
+  {/* style={{color:'black',fontSize:"2rem",marginTop:"2rem",marginBottom:"2rem"}} */}
+     <h4  className='client-name'>
         {clientname}
       </h4>
   </div>
   </motion.div>
   
   
-  <div  style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",textAlign:"center",paddingBottom:"3%"}}>
+  <div className='projectsstyle' >
   {
     projectarray.map( currentproject =>{
      return (
@@ -44,7 +45,7 @@ import {motion} from "framer-motion"
     </div>
     <div>
       <h4 style={{color:"black"}}>{currentproject.projecttitle}</h4>
-      <p style={{color:"black",fontSize:"0.9rem"}}>{currentproject.projectdescription}</p>
+      <p style={{color:"black"}} className='project-description'>{currentproject.projectdescription}</p>
     </div>
     
   </div>
@@ -65,7 +66,7 @@ import {motion} from "framer-motion"
 const Projects = () => {
   return (
     <div >
-    <div style={{height:"30vh",textAlign:"center",color:"black",fontSize:"30px",marginTop:"-5%",backgroundColor:"#0C0350"}}>
+    <div className='our-projects' style={{height:"30vh",textAlign:"center",color:"black",backgroundColor:"#0C0350"}}>
     <motion.div
         initial="hidden"
         whileInView="visible"

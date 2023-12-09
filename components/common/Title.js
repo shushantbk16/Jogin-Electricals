@@ -8,8 +8,8 @@ export const TitleLogo = ({ title, caption, className }) => {
 }
 
 export const TitleSm = ({ title }) => {
-  return <h1 style={{color:"white",fontSize:"2rem"}}>{title}</h1>
+  return <h1 style={{color:"white"}} className="ios">{title}</h1>
 }
 export const Title = ({ title, className }) => {
-  return <h1 className={`${className} title`} style={{color:"white"}}>{title}</h1>
+  return <h1 className="our-expertise-title" style={{color:"white"}}>{title}</h1>
 }

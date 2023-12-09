@@ -3,7 +3,7 @@ import {motion} from "framer-motion"
 import { showcase4 ,showcase5} from '@/assets/data/dummydata'
 const Gallery = () => {
   return (
-    <div style={{textAlign:"center",color:"black",fontSize:"30px",marginTop:"-5%",backgroundColor:"#0C0350",marginBottom:"5%",paddingBottom:"3%"}}>
+    <div className='gallery-description'>
     <motion.div
         initial="hidden"
         whileInView="visible"
@@ -14,7 +14,7 @@ const Gallery = () => {
           hidden: { opacity: 0, scale: 1,y:60 },
         }}
       >
-    <h2 style={{paddingTop:"10%",color:"whitesmoke",font:"menu",fontSize:"3rem",paddingBottom:"5%"}}>Decorative street light poles</h2>
+    <h2  className='Decorative'>Decorative street light poles</h2>
     </motion.div>
     <div className="marketPlaces-portfolio ">
         {showcase4.map((item) => {
@@ -63,7 +63,7 @@ const Gallery = () => {
           hidden: { opacity: 0, scale: 1,y:60 },
         }}
       >
-    <h2 style={{color:"whitesmoke",font:"menu",fontSize:"3rem",paddingBottom:"5%"}}>Site Images</h2>
+    <h2  className='gallery-description'>Site Images</h2>
     </motion.div>
     <div className="marketPlaces-portfolio ">
         {showcase5.map((item) => {

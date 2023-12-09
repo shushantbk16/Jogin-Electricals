@@ -68,7 +68,7 @@ import {motion} from 'framer-motion'
             // style={{ top: "-22px" }}
             >
      
-      <h1 className="hero-title" style={{color:"wheat",fontSize:"6rem"}}>JOGIN ELECTRICALS</h1>
+      <h1 className="hero-title" style={{color:"wheat"}}>JOGIN ELECTRICALS</h1>
       </motion.div>
 
      
@@ -91,7 +91,7 @@ import {motion} from 'framer-motion'
             }}
             // style={{ top: "-22px" }}
             >
-        <TitleSm title="An ISO 9001:2015 certified company"/> 
+        <h2 className='ios'>An ISO 9001:2015 certified company</h2>
         </motion.div>
         
       </div>

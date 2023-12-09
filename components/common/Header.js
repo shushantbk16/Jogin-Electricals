@@ -39,12 +39,12 @@ const Header = () => {
   }, [router.pathname]);
   return (
     <>
-      <header>
-        <div className="container" style={{height:"50px",backgroundColor:navColor,marginLeft:"0px",transition:"0.3s ease-in"}}>
+      <header className="header-responsive">
+        <div className="container mt-14" style={{height:"50px",backgroundColor:navColor,marginLeft:"0px",transition:"0.3s ease-in"}}>
           <div className="logo" style={{marginLeft:"5%"}}>
             <Link href="/">
             <div className="title-card">
-              <Image src={joginlogo} width={40} height={40} alt="image" style={{    marginTop:"6%", height:"4vh",borderRadius:"5px",width:"2rem"}}/>
+              <Image src={joginlogo} width={40} height={40} alt="image" className="logo-main"/>
               <div style={{marginTop:"-6%"}}> 
               <TitleLogo title="JoginElectricals" caption="" className="logomin" />
               </div>
@@ -107,9 +107,11 @@ const Header = () => {
               Contact
             </Link>
           </nav>
-          {/* <button className="button-hidden" onClick={() => setOpen(!open)}>
+          <button className="button-hidden" onClick={() => setOpen(!open)} style={{
+            visibility:"none"
+          }}>
             {open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}
-          </button> */}
+          </button>
         </div>
       </header>
     </>

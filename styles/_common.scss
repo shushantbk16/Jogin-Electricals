@@ -3,6 +3,10 @@
 .title-logo {
   padding-top: 10%;
   font-size: $xl-1;
+  @media screen and (max-width:640px) {
+    padding-top: 4%;
+    font-size: 18px;
+  }
   -webkit-text-stroke: 1px $white;
   // color:black;
   span {
