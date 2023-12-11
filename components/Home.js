@@ -27,7 +27,7 @@ import {motion} from 'framer-motion'
     <section className="hero" >
      {/* <Image src={wallpaper3} width={100} height={1000} style={{width:"100%",height:"90vh"}}/> */}
 
-     <div className="container cont" style={{top:"-10%"}}>
+     <div className="container cont" >
      <motion.div
             whileInView="visible"
             viewport={{ once: true }}

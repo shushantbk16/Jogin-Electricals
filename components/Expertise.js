@@ -67,10 +67,10 @@ const Expertise = () => {
                 <img src={item.cover} alt="marketplace-portfolio "  style={{ width:"100%",height: "30vh"}}/>
               </div>
               <div className="name-portfolio ">
-                <h4 style={{fontSize:"15px"}}>{item.title}</h4>
+                <h4 style={{fontSize:"0.9rem"}}>{item.title}</h4>
                
               </div>
-              <h1 className="text-decoration" style={{position:"absolute",color:"black",fontSize:"15px",justifyContent:"center",top:"26%",font:"menu"}}>{item.description}</h1>
+              <h1 className="text-decoration" style={{position:"absolute",color:"black",fontSize:"1.0rem",justifyContent:"center",top:"30%",font:"menu"}}>{item.description}</h1>
               {/* <h6 className="username-portfolio ">{item.catgeory}</h6> */}
              
             </div>
