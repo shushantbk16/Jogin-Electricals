@@ -39,9 +39,9 @@ import {motion} from "framer-motion"
           hidden: { opacity: 0, scale: 1,y:60 },
         }}
       >
-      <div className="marketplace" style={{width:"75%",height:"45vh",backgroundColor:"white",border:"0.1rem solid black",borderRadius:"1rem",marginBottom:"10%",marginLeft:"15%",}}>
+      <div className="marketplace" style={{width:"75%",height:"24rem",backgroundColor:"white",border:"0.1rem solid black",borderRadius:"1rem",marginBottom:"10%",marginLeft:"15%",}}>
     <div>
-      <img src={currentproject.projectimg} width="50%" height="180vh"/>
+      <img src={currentproject.projectimg} width="50%" height="200rem"/>
     </div>
     <div>
       <h4 style={{color:"black",fontSize:"1rem"}}>{currentproject.projecttitle}</h4>
@@ -77,7 +77,7 @@ const Projects = () => {
           hidden: { opacity: 0, scale: 1,y:60 },
         }}
       >
-    <h2 style={{paddingTop:"10%",color:"whitesmoke"}}>Our Projects</h2>
+    <h2 style={{paddingTop:"8%",color:"whitesmoke"}}>Our Projects</h2>
     </motion.div>
     </div>
     <div >
