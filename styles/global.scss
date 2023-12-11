@@ -15,11 +15,12 @@ opacity: 0;
   text-align: center;
   margin-top: -60px;
   padding: $xl-6 0;
-  padding-top: 0%;
+  
   height: 100vh ;
   overflow: hidden !important;
   background-image: url("../assets/images/LED-lights-delhi.jpg");
   @media screen and (max-width:640px) {
+    padding-top: 30%;
     background-image: url("../assets/images/backgorund-image2.jpeg");
     background-size: 100% 100%;
     height: 70vh;
@@ -464,7 +465,9 @@ footer {
     }
   }
   .connect {
-    @include flex(center, space-between, none);
+    // @include flex(center,space-between , none);
+    display: flex;
+    
     span {
       font-size: $sm;
       letter-spacing: 2px;
@@ -1014,5 +1017,20 @@ font-size: 1.2rem;
    @media screen and (max-width:640px) {
     height: 29px;
     margin-top: 4%;
+  }
+}
+.terms{
+  margin-left: 50%;
+  @media screen and (max-width:640px) {
+    margin-left: 50%;
+    width: 90%;
+    margin-top: 5%;
+    
+  }
+}
+.legal{
+  @media screen and (max-width:640px) {
+   width: 100%;
+    
   }
 }

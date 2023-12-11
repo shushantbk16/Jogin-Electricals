@@ -98,10 +98,9 @@ const Footer = () => {
             <div className="text">
               <span>© 2023 JoginElectricals. ALL RIGHTS RESERVED.</span>
             </div>
-            <div className="connect">
+            <div className="connect terms">
               <span></span>
-              <span> &nbsp; | &nbsp; </span>
-              <span>TERMS & CONDITIONS</span>
+              <span> &nbsp; | &nbsp; TERMS & CONDITIONS</span>
             </div>
           </div>
         </div>
