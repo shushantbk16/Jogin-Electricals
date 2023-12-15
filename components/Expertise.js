@@ -4,7 +4,7 @@ import { expertise } from "@/assets/data/dummydata";
 import { Card } from "./common/Card";
 import { motion } from "framer-motion";
 import { showcase  } from "@/assets/data/dummydata";
-
+import Link from 'next/link'
 const Expertise = () => {
   return (
     <>
@@ -62,6 +62,7 @@ const Expertise = () => {
             }}
             style={{ top: "-22px" }}
             >
+           <Link href={`/services#${item.id}`}>
             <div className="marketplace-portfolio" style={{position:"relative"}}>
               <div className="image-portfolio ">
                 <img src={item.cover} alt="marketplace-portfolio "  style={{ width:"100%",height: "30vh"}}/>
@@ -70,10 +71,11 @@ const Expertise = () => {
                 <h4 style={{fontSize:"0.9rem"}}>{item.title}</h4>
                
               </div>
-              <h1 className="text-decoration" style={{position:"absolute",color:"black",fontSize:"1.0rem",justifyContent:"center",top:"30%",font:"menu"}}>{item.description}</h1>
+              {/* <h1 className="text-decoration" style={{position:"absolute",color:"black",fontSize:"1.0rem",justifyContent:"center",top:"30%",font:"menu"}}>{item.description}</h1> */}
               {/* <h6 className="username-portfolio ">{item.catgeory}</h6> */}
              
             </div>
+            </Link>
            
             
             </motion.div>

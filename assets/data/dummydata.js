@@ -104,71 +104,47 @@ export const testimonial = [
 export const showcase = [
   {
     id: 1,
-    title: "Manufacturing Decorative street Light Poles",
-    cover: "../images/exp-10.jpeg",
+    title: "33KV Line Installation and Maintenance",
+    cover: "../images/cover image-33kv.jpg",
     catgeory: "As licensed contractors, Jogin Industry brings precision and excellence to electrical projects, ensuring compliance with the highest industry standards for safe and efficient execution.",
     description:"Manufacturing decorative streetlight poles blends artistry with engineering precision. It involves conceptualizing designs, selecting durable materials like aluminum or steel, intricate fabrication, assembly, and stringent quality checks."
   },
   {
     id: 2,
-    title: "Electrical supergrade licensed contractors",
+    title: "High Mast Lighting Solutions",
     catgeory: "Supply / Install/ Maintenance of Electronic Telephone Exchange (EPABX), Push Buttons Telephones, Key Telephones Systems , Digital Exchanges, Phones, Voice Mail, Mobile Phones, Accessories etc.",
-    cover: "../images/exp-1.png",
+    cover: "../images/cover image-highmast.jpeg",
     description:"As licensed contractors, Jogin Electricals brings precision and excellence to electrical projects, ensuring compliance with the highest industry standards for safe and efficient execution."
   },
   {
     id: 3,
-    title: "Designing of electrical projects",
-    cover: "../images/exp-2.png",
+    title: "Highway Electrification",
+    cover: "../images/cover image-highway.PNG",
     catgeory: "",
     description:"Our specialized team excels in meticulous design, crafting blueprints that seamlessly integrate functionality and aesthetics for optimal performance and visual appeal in every electrical project."
   },
   {
     id: 4,
-    title: "HT UG cable / LT UG cable",
-    cover: "../images/exp-3.png",
+    title: "HT/LT Line Design and Implementation",
+    cover: "../images/cover image-HTLT.jpg",
     catgeory: "Supply / Installation of Data UTP / CAT - 5 cables in under ground trench / floor with specially designed boxes.Supply / installation of Information outlets.",
     description:"Jogin Electricals is proficient in handling both High Tension Underground (HT UG) and Low Tension Underground (LT UG) cables, providing reliable solutions prioritizing safety and efficiency in power distribution."
   },
   {
     id: 5,
-    title: "Transformer centres",
-    cover: "../images/exp-5.png",
+    title: "Industrial Electrification Services",
+    cover: "../images/cover image-Industrial.PNG",
     catgeory: "Supply / Installation of Data UTP / CAT - 5 cables in under ground trench / floor with specially designed boxes.Supply / installation of Information outlets.",
     description:"Transforming power distribution landscapes, our Transformer Centres stand as beacons of reliability, offering robust infrastructure equipped with cutting-edge technology and engineering for diverse energy needs."
   },
   {
     id: 6,
-    title: "DG sets",
-    cover: "../images/exp-4.png",
+    title: "Manufacturing of Streetlight Poles",
+    cover: "../images/cover image-Poles.jpg",
     catgeory: "Supply / Installation of Data UTP / CAT - 5 cables in under ground trench / floor with specially designed boxes.Supply / installation of Information outlets.",
     description:"For uninterrupted power supply, Jogin Industry introduces state-of-the-art DG sets, ensuring a dependable backup to keep operations running seamlessly, even in challenging circumstances.    "
   },
-  {
-    id: 7,
-    title: "Building internal wiring ",
-    cover: "../images/exp-6.png",
-    catgeory: "Supply / Installation of Data UTP / CAT - 5 cables in under ground trench / floor with specially designed boxes.Supply / installation of Information outlets.",
-    description:"Navigating the intricacies of internal wiring, we integrate modern solutions to enhance the efficiency of electrical systems, providing a solid foundation for your infrastructure's electrical backbone.    "
-  },
-  {
-    id: 8,
-    title: "Highway electrification ",
-    cover: "../images/exp-7.png",
-    catgeory: "Supply / Installation of Data UTP / CAT - 5 cables in under ground trench / floor with specially designed boxes.Supply / installation of Information outlets.",
-    description:"Jogin Electricals offers comprehensive electrification services for highways, industrial zones, and layout developments, ensuring seamless integration of power distribution networks to meet unique environmental demands."
-  },
-  {
-    id:"9",
-    title:"Industrial Electrification",
-    cover:"../images/exp-11.png",
-    description:"Industrial electrification involves integrating electrical power into industrial processes, replacing traditional methods with electrical machinery and systems."
-  },{
-    id:"10",
-    title:"Layout Electrification",
-    cover:"../images/exp-12.png",
-    description:"Layout electrification involves designing and implementing electrical systems within a specific space, planning the arrangement of components, wiring, fixtures, and outlets for safe and efficient distribution."
-  }
+  
 ];
 export const brand = [
   {
@@ -603,82 +579,82 @@ export const projectDetails=[
  export const showcase4=[
   {
     id:1,
-    cover:"../images/gallery-1.png"
+    cover:"../images/poles-image-1.jpg"
   },
   {
     id:2,
-    cover:"../images/gallery-2.png"
+    cover:"../images/poles-image-2.jpeg"
   },
   {
     id:3,
-    cover:"../images/gallery-3.png"
+    cover:"../images/poles-image-3.jpg"
   },
   {
     id:4,
-    cover:"../images/gallery-4.png"
+    cover:"../images/poles-image-4.jpg"
   },
   {
     id:5,
-    cover:"../images/gallery-5.png"
+    cover:"../images/poles-image-5.jpg"
   },
   {
     id:6,
-    cover:"../images/gallery-6.png"
+    cover:"../images/poles-image-6.jpg"
   },
   {
     id:7,
-    cover:"../images/gallery-7.png"
+    cover:"../images/poles-image-7.jpg"
   },
   {
     id:8,
-    cover:"../images/gallery-8.png"
+    cover:"../images/poles-image-8.jpg"
   },
   {
     id:9,
-    cover:"../images/gallery-9.png"
+    cover:"../images/poles-image-9.jpg"
   },
   {
     id:10,
-    cover:"../images/gallery-10.png"
+    cover:"../images/poles-image-10.jpg"
   },{
     id:11,
-    cover:"../images/gallery-11.png"
+    cover:"../images/poles-image-11.jpg"
   }
   ,{
     id:12,
-    cover:"../images/gallery-12.png"
+    cover:"../images/poles-image-12.jpg"
   }
   ,{
     id:13,
-    cover:"../images/gallery-13.png"
+    cover:"../images/poles-image-13.jpg"
   },
   {
     id:14,
-    cover:"../images/gallery-14.png"
+    cover:"../images/poles-image-14.jpeg"
   },
   {
     id:15,
-    cover:"../images/gallery-15.png"
+    cover:"../images/poles-image-15.jpeg"
   },
   {
     id:16,
-    cover:"../images/gallery-16.png"
+    cover:"../images/poles-image-16.jpg"
   },
   {
     id:17,
-    cover:"../images/gallery-17.png"
+    cover:"../images/poles-image-17.jpg"
   },
   {
     id:18,
-    cover:"../images/gallery-18.png"
+    cover:"../images/poles-image-18.jpg"
   },
   {
     id:19,
-    cover:"../images/gallery-19.png"
+    cover:"../images/poles-image-19.jpg"
   },
   {
     id:20,
-    cover:"../images/gallery-20.png"
+    cover:"../images/poles-image-20.jpg"
   }
 ]
 export const client3 =[
@@ -690,62 +666,114 @@ export const client3 =[
 export const showcase5=[
   {
     id:1,
-    cover:"../images/site-.png"
+    cover:"../images/site-light-1.png"
   },
   {
     id:2,
-    cover:"../images/site-1.png"
+    cover:"../images/site-light-2.jpg"
   },
   {
     id:3,
-    cover:"../images/site-2.png"
+    cover:"../images/site-light-3.jpg"
   },
   {
     id:4,
-    cover:"../images/site-3.png"
+    cover:"../images/site-light-4.jpg"
   },
   {
     id:5,
-    cover:"../images/site-4.png"
+    cover:"../images/site-light-5.jpg"
   },
   {
     id:6,
-    cover:"../images/site-5.png"
+    cover:"../images/site-light-6.jpg"
   },
   {
     id:7,
-    cover:"../images/site-6.png"
+    cover:"../images/site-light-7.jpg"
   },
   {
     id:8,
-    cover:"../images/site-7.png"
+    cover:"../images/site-light-8.jpg"
   },
   {
     id:9,
-    cover:"../images/site-8.png"
+    cover:"../images/site-light-9.jpeg"
   },
   {
     id:10,
-    cover:"../images/site-9.png"
+    cover:"../images/site-light-10.jpg"
   },{
     id:11,
-    cover:"../images/site-10.png"
+    cover:"../images/site-light-11.jpeg"
   }
   ,{
     id:12,
-    cover:"../images/site-11.png"
+    cover:"../images/site-light-12.png"
   }
   ,{
     id:13,
-    cover:"../images/site-12.png"
+    cover:"../images/site-light-13.png"
   },
   {
     id:14,
-    cover:"../images/site-13.png"
+    cover:"../images/site-light-14.png"
   },
   {
     id:15,
-    cover:"../images/site-15.png"
+    cover:"../images/site-light-15.png"
+  },
+  {
+    id:16,
+    cover:"../images/site-light-16.png"
+  },
+  {
+    id:17,
+    cover:"../images/site-light-17.png"
+  },
+  {
+    id:18,
+    cover:"../images/site-light-18.png"
+  },
+  {
+    id:19,
+    cover:"../images/site-light-19.jpg"
+  },
+  {
+    id:20,
+    cover:"../images/site-light-20.jpg"
   },
   
+]
+
+
+export const services=[
+  {
+    id:1,
+    title:"33KV Line Installation and Maintenance",
+    // description:"Welcome to the forefront of power distribution excellence. Our 33KV Line Installation and Maintenance services represent a pinnacle in engineering precision and reliability.
+    // Our seasoned professionals bring a wealth of experience, ensuring the flawless
+    // installation of high-voltage lines that form the backbone of your power distribution
+    // network. Leveraging state-of-the-art technology and adhering to the strictest safety
+    // protocols, we not only set up your infrastructure but also stay committed to its ongoing
+    // maintenance. Our comprehensive maintenance programs go beyond routine check-ups;
+    // they are a proactive approach to guaranteeing the uninterrupted efficiency of your 33KV
+    // infrastructure. Trust us not just as service providers but as dedicated partners in
+    // building and sustaining a resilient and dependable power distribution network.",
+    images:[
+      {
+        url:"",
+      },
+      {
+
+      },
+      {
+
+      },
+      {
+
+      }
+
+    ]
+  }
 ]

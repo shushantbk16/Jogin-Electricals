@@ -67,7 +67,7 @@ const Header = () => {
             </Link>
             
             <Link
-              href="/#experTise"
+              href="/services"
               // className={activeLink == "#expertise" ? "activeLink" : "none"} 
               className="beaut"
               style={{color:"white"}}
