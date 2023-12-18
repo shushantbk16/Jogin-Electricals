@@ -6,7 +6,7 @@
     color:blue
   }
 }
-button {
+.button-hidden {
   width: 50%;
     height: 50px;
     display: none;
@@ -14,7 +14,7 @@ button {
 
 /* Show the button on medium to small screens */
 @media screen and (max-width: 640px) {
-  button {
+  .button-hidden {
     display: block;
     margin-left: 20%;
     

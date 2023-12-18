@@ -40,12 +40,12 @@ const Header = () => {
   return (
     <>
       <header className="header-responsive">
-        <div className="container mt-14" style={{height:"50px",backgroundColor:navColor,marginLeft:"0px",transition:"0.3s ease-in"}}>
+        <div className="container mt-14" style={{height:"3.8rem",backgroundColor:navColor,marginLeft:"0px",transition:"0.3s ease-in"}}>
           <div className="logo" style={{marginLeft:"5%"}}>
             <Link href="/">
             <div className="title-card">
-              <Image src={joginlogo} width={40} height={40} alt="image" className="logo-main"/>
-              <div style={{marginTop:"-6%"}}> 
+              <Image src={joginlogo} width={60} height={60} alt="image" className="logo-main"/>
+              <div style={{marginTop:"-7%"}}> 
               <TitleLogo title="JoginElectricals" caption="" className="logomin" />
               </div>
               </div>
@@ -74,14 +74,14 @@ const Header = () => {
             >
               Services
             </Link>
-            <Link
+            {/* <Link
               href="/projects"
               // className={activeLink == "#portFolio" ? "activeLink" : "none"}
               className="beaut"
               style={{color:"white"}}
             >
               Our Projects
-            </Link>
+            </Link> */}
             <Link
               href="/#about-us"
               // className={activeLink == "#about-us" ? "activeLink" : "none"}
@@ -91,12 +91,12 @@ const Header = () => {
              About
             </Link>
             <Link
-              href="/gallery"
+              href="/our-projects"
               // className={activeLink == "#portFolio" ? "activeLink" : "none"}
               className="beaut"
               style={{color:"white"}}
             >
-              Gallery
+             Our Projects
             </Link>
             <Link
               href="/#foot"

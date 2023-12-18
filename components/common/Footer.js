@@ -43,29 +43,24 @@ const Footer = () => {
             <ul style={{marginLeft:"10%"}} className="footer-services">
               <h3>SERVICES</h3>
               <li>
-                <Link href="/#experTise">Manufacturing Decorative street Light Poles</Link>
+                <Link href="/services#1">33KV Line Installation and Maintenance</Link>
               </li>
               <li>
-                <Link href="/#experTise">Electrical supergrade licensed contractors</Link>
+                <Link href="/services#2">High Mast Lighting Solutions</Link>
               </li>
               <li>
-                <Link href="/#experTise">Designing of electrical projects</Link>
+                <Link href="/services#3">Highway Electrification</Link>
               </li>
               <li>
-                <Link href="/#experTise">HT UG cable / LT UG cable</Link>
+                <Link href="/services#4">HT/LT Line Design and Implementation</Link>
               </li>
               <li>
-                <Link href="/#experTise">Transformer centres</Link>
+                <Link href="/services#5">Industrial Electrification Services</Link>
               </li>
               <li>
-                <Link href="/#experTise">DG Sets</Link>
+                <Link href="/services#6">Manufacturing of Streetlight Poles</Link>
               </li>
-              <li>
-                <Link href="/#experTise">Building Internal Wiring</Link>
-              </li>
-              <li>
-                <Link href="/#experTise">Highway , Industrial and Layout Electrification</Link>
-              </li>
+              
               
             </ul>
             {/* <ul>

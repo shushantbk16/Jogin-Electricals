@@ -2,7 +2,7 @@
 
 /* Hide the button on large screens */
 .button-hidden {
-  display: none;
+  /* display: none; */
 }
 
 /* Show the button on medium to small screens */

@@ -16,7 +16,7 @@ const Gallery = () => {
       >
     <h2  className='Decorative'>Decorative street light poles</h2>
     </motion.div>
-    <div className="marketPlaces-portfolio ">
+    <div className="marketPlaces-portfolio-galleryimages ">
         {showcase4.map((item) => {
           return (
             <motion.div
@@ -65,7 +65,7 @@ const Gallery = () => {
       >
     <h2  className='gallery-description'>Site Images</h2>
     </motion.div>
-    <div className="marketPlaces-portfolio ">
+    <div className="marketPlaces-portfolio-galleryimages ">
         {showcase5.map((item) => {
           return (
             <motion.div

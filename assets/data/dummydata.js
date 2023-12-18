@@ -113,7 +113,7 @@ export const showcase = [
     id: 2,
     title: "High Mast Lighting Solutions",
     catgeory: "Supply / Install/ Maintenance of Electronic Telephone Exchange (EPABX), Push Buttons Telephones, Key Telephones Systems , Digital Exchanges, Phones, Voice Mail, Mobile Phones, Accessories etc.",
-    cover: "../images/cover image-highmast.jpeg",
+    cover: "../images/highmast-10.png",
     description:"As licensed contractors, Jogin Electricals brings precision and excellence to electrical projects, ensuring compliance with the highest industry standards for safe and efficient execution."
   },
   {
@@ -126,7 +126,7 @@ export const showcase = [
   {
     id: 4,
     title: "HT/LT Line Design and Implementation",
-    cover: "../images/cover image-HTLT.jpg",
+    cover: "../images/htlt-10.png",
     catgeory: "Supply / Installation of Data UTP / CAT - 5 cables in under ground trench / floor with specially designed boxes.Supply / installation of Information outlets.",
     description:"Jogin Electricals is proficient in handling both High Tension Underground (HT UG) and Low Tension Underground (LT UG) cables, providing reliable solutions prioritizing safety and efficiency in power distribution."
   },
@@ -595,7 +595,7 @@ export const projectDetails=[
   },
   {
     id:5,
-    cover:"../images/poles-image-5.jpg"
+    cover:"../images/pole-100.png"
   },
   {
     id:6,
