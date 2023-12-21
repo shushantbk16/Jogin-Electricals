@@ -55,8 +55,8 @@ aesthetics through our high mast lighting solutions.</p>
 <div className='content-bar-images' >
   <div> <img src='../images/hw-2.jpeg' className='content-bar-image'/></div>
   <div> <img src='../images/hw-3.jpeg' className='content-bar-image'/></div>
-  <div> <img src='../images/hw-4.jpeg' className='content-bar-image'/></div>
-  <div><img src='../images/hw-1.PNG' className='content-bar-image'/></div>
+  <div> <img src='../images/gomp-8.png' className='content-bar-image'/></div>
+  <div><img src='../images/gomp-20.png' className='content-bar-image'/></div>
 </div>
 </div>
 
@@ -133,8 +133,8 @@ functionally and aesthetically. Illuminate your surroundings with poles that are
 sources of light but also symbols of enduring quality and style.</p>
 <div  className='content-bar-images'>
   <div><img src='../images/poles-1.jpg' className='content-bar-image'/></div>
-  <div> <img src='../images/poles-2.jpg' className='content-bar-image'/></div>
-  <div> <img src='../images/poles-3.jpg' className='content-bar-image'/></div>
+  <div> <img src='../images/comp-4.png' className='content-bar-image'/></div>
+  <div> <img src='../images/comp-5.png' className='content-bar-image'/></div>
   <div> <img src='../images/poles-4.jpg' className='content-bar-image'/></div>
 </div>
 </div>

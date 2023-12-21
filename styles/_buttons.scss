@@ -1,0 +1,30 @@
+.button {
+  width: 50px;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button__image {
+  fill: white;
+  height: 50px;
+}
+
+.prev__button,
+.next__button {
+  justify-content: center;
+  margin: 0;
+
+  @media (min-width: 768px) {
+    align-self: center;
+  }
+}
+
+.prev__button {
+    margin-left: 50px;
+}
+
+.next__button {
+    margin-right: 50px;
+}

@@ -579,82 +579,82 @@ export const projectDetails=[
  export const showcase4=[
   {
     id:1,
-    cover:"../images/poles-image-1.jpg"
+    cover:"../images/comp-17.png"
   },
   {
     id:2,
-    cover:"../images/poles-image-2.jpeg"
+    cover:"../images/comp-16.png"
   },
   {
     id:3,
-    cover:"../images/poles-image-3.jpg"
+    cover:"../images/comp-3.png"
   },
   {
     id:4,
-    cover:"../images/poles-image-4.jpg"
+    cover:"../images/comp-4.png"
   },
   {
     id:5,
-    cover:"../images/pole-100.png"
+    cover:"../images/comp-5.png"
   },
   {
     id:6,
-    cover:"../images/poles-image-6.jpg"
+    cover:"../images/comp-6.png"
   },
   {
     id:7,
-    cover:"../images/poles-image-7.jpg"
+    cover:"../images/comp-7.png"
   },
   {
     id:8,
-    cover:"../images/poles-image-8.jpg"
+    cover:"../images/comp-8.png"
   },
   {
     id:9,
-    cover:"../images/poles-image-9.jpg"
+    cover:"../images/comp-9.png"
   },
   {
     id:10,
-    cover:"../images/poles-image-10.jpg"
+    cover:"../images/comp-10.png"
   },{
     id:11,
-    cover:"../images/poles-image-11.jpg"
+    cover:"../images/comp-11.png"
   }
   ,{
     id:12,
-    cover:"../images/poles-image-12.jpg"
+    cover:"../images/comp-12.png"
   }
   ,{
     id:13,
-    cover:"../images/poles-image-13.jpg"
+    cover:"../images/comp-13.png"
   },
   {
     id:14,
-    cover:"../images/poles-image-14.jpeg"
+    cover:"../images/comp-14.png"
   },
   {
     id:15,
-    cover:"../images/poles-image-15.jpeg"
+    cover:"../images/comp-15.png"
   },
   {
     id:16,
-    cover:"../images/poles-image-16.jpg"
+    cover:"../images/comp-2.png"
   },
   {
     id:17,
-    cover:"../images/poles-image-17.jpg"
+    cover:"../images/comp-1.png"
   },
   {
     id:18,
-    cover:"../images/poles-image-18.jpg"
+    cover:"../images/comp-18.png"
   },
   {
     id:19,
-    cover:"../images/poles-image-19.jpg"
+    cover:"../images/comp-19.png"
   },
   {
     id:20,
-    cover:"../images/poles-image-20.jpg"
+    cover:"../images/comp-20.png"
   }
 ]
 export const client3 =[
@@ -666,82 +666,82 @@ export const client3 =[
 export const showcase5=[
   {
     id:1,
-    cover:"../images/site-light-1.png"
+    cover:"../images/gomp-1.png"
   },
   {
     id:2,
-    cover:"../images/site-light-2.jpg"
+    cover:"../images/gomp-2.png"
   },
   {
     id:3,
-    cover:"../images/site-light-3.jpg"
+    cover:"../images/gomp-3.png"
   },
   {
     id:4,
-    cover:"../images/site-light-4.jpg"
+    cover:"../images/gomp-4.png"
   },
   {
     id:5,
-    cover:"../images/site-light-5.jpg"
+    cover:"../images/gomp-5.png"
   },
   {
     id:6,
-    cover:"../images/site-light-6.jpg"
+    cover:"../images/gomp-6.png"
   },
   {
     id:7,
-    cover:"../images/site-light-7.jpg"
+    cover:"../images/gomp-7.png"
   },
   {
     id:8,
-    cover:"../images/site-light-8.jpg"
+    cover:"../images/gomp-8.png"
   },
   {
     id:9,
-    cover:"../images/site-light-9.jpeg"
+    cover:"../images/gomp-9.png"
   },
   {
     id:10,
-    cover:"../images/site-light-10.jpg"
+    cover:"../images/gomp-10.png"
   },{
     id:11,
-    cover:"../images/site-light-11.jpeg"
+    cover:"../images/gomp-11.png"
   }
   ,{
     id:12,
-    cover:"../images/site-light-12.png"
+    cover:"../images/gomp-12.png"
   }
   ,{
     id:13,
-    cover:"../images/site-light-13.png"
+    cover:"../images/gomp-13.png"
   },
   {
     id:14,
-    cover:"../images/site-light-14.png"
+    cover:"../images/gomp-14.png"
   },
   {
     id:15,
-    cover:"../images/site-light-15.png"
+    cover:"../images/gomp-15.png"
   },
   {
     id:16,
-    cover:"../images/site-light-16.png"
+    cover:"../images/gomp-16.png"
   },
   {
     id:17,
-    cover:"../images/site-light-17.png"
+    cover:"../images/gomp-17.png"
   },
   {
     id:18,
-    cover:"../images/site-light-18.png"
+    cover:"../images/gomp-18.png"
   },
   {
     id:19,
-    cover:"../images/site-light-19.jpg"
+    cover:"../images/gomp-19.png"
   },
   {
     id:20,
-    cover:"../images/site-light-20.jpg"
+    cover:"../images/gomp-20.png"
   },
   
 ]

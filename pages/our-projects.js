@@ -1,7 +1,7 @@
 import React from 'react'
 import Gallery from '@/sections/Gallery'
 import Head from "next/head";
-const gallery = () => {
+const ourprojects = () => {
   return (
     <>
     <Head>
@@ -12,4 +12,4 @@ const gallery = () => {
   )
 }
 
-export default gallery
+export default ourprojects
