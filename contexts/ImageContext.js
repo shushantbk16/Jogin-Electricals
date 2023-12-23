@@ -1,13 +1,15 @@
 import React, { Component, createContext } from "react";
 import {showcase4} from "../assets/data/dummydata";
 // import photos from "@/assets/photos";
+// import photos from "@/assets/photos";
 
 export const ImageContext = createContext();
 
-class ImageContextProvider extends Component {
+export class ImageContextProvider extends Component{
   static defaultProps = {
     photos: [...showcase4], 
   };
+  
   
   state = {
     currentPhoto: ""
@@ -21,8 +23,8 @@ class ImageContextProvider extends Component {
 
   getPreviousPhoto = id => {
     let previousPhoto = id - 1;
-    if (previousPhoto < 0) {
-      previousPhoto = showcase4.length - 1;
+    if (previousPhoto < 1) {
+      previousPhoto = showcase4.length;
     }
 
     this.findPhoto(previousPhoto);
@@ -30,8 +32,9 @@ class ImageContextProvider extends Component {
 
   getNextPhoto = id => {
     let nextPhoto = id + 1;
-    if (nextPhoto > showcase4.length - 1) {
-      nextPhoto = 0;
+    if (nextPhoto > 
+      showcase4.length ) {
+      nextPhoto = 1;
     }
 
     this.findPhoto(nextPhoto);

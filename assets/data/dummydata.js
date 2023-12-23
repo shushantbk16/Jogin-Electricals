@@ -655,7 +655,86 @@ export const projectDetails=[
   {
     id:20,
     cover:"../images/comp-20.png"
-  }
+  },
+    {
+      id:21,
+      cover:"../images/gomp-1.png"
+    },
+    {
+      id:22,
+      cover:"../images/gomp-2.png"
+    },
+    {
+      id:23,
+      cover:"../images/gomp-3.png"
+    },
+    {
+      id:24,
+      cover:"../images/gomp-4.png"
+    },
+    {
+      id:25,
+      cover:"../images/gomp-5.png"
+    },
+    {
+      id:26,
+      cover:"../images/gomp-6.png"
+    },
+    {
+      id:27,
+      cover:"../images/gomp-7.png"
+    },
+    {
+      id:28,
+      cover:"../images/gomp-8.png"
+    },
+    {
+      id:29,
+      cover:"../images/gomp-9.png"
+    },
+    {
+      id:30,
+      cover:"../images/gomp-10.png"
+    },{
+      id:31,
+      cover:"../images/gomp-11.png"
+    }
+    ,{
+      id:32,
+      cover:"../images/gomp-12.png"
+    }
+    ,{
+      id:33,
+      cover:"../images/gomp-13.png"
+    },
+    {
+      id:34,
+      cover:"../images/gomp-14.png"
+    },
+    {
+      id:35,
+      cover:"../images/gomp-15.png"
+    },
+    {
+      id:36,
+      cover:"../images/gomp-16.png"
+    },
+    {
+      id:37,
+      cover:"../images/gomp-17.png"
+    },
+    {
+      id:38,
+      cover:"../images/gomp-18.png"
+    },
+    {
+      id:39,
+      cover:"../images/gomp-19.png"
+    },
+    {
+      id:40,
+      cover:"../images/gomp-20.png"
+    },
 ]
 export const client3 =[
   
@@ -665,82 +744,82 @@ export const client3 =[
 
 export const showcase5=[
   {
-    id:1,
+    id:21,
     cover:"../images/gomp-1.png"
   },
   {
-    id:2,
+    id:22,
     cover:"../images/gomp-2.png"
   },
   {
-    id:3,
+    id:23,
     cover:"../images/gomp-3.png"
   },
   {
-    id:4,
+    id:24,
     cover:"../images/gomp-4.png"
   },
   {
-    id:5,
+    id:25,
     cover:"../images/gomp-5.png"
   },
   {
-    id:6,
+    id:26,
     cover:"../images/gomp-6.png"
   },
   {
-    id:7,
+    id:27,
     cover:"../images/gomp-7.png"
   },
   {
-    id:8,
+    id:28,
     cover:"../images/gomp-8.png"
   },
   {
-    id:9,
+    id:29,
     cover:"../images/gomp-9.png"
   },
   {
-    id:10,
+    id:30,
     cover:"../images/gomp-10.png"
   },{
-    id:11,
+    id:31,
     cover:"../images/gomp-11.png"
   }
   ,{
-    id:12,
+    id:32,
     cover:"../images/gomp-12.png"
   }
   ,{
-    id:13,
+    id:33,
     cover:"../images/gomp-13.png"
   },
   {
-    id:14,
+    id:34,
     cover:"../images/gomp-14.png"
   },
   {
-    id:15,
+    id:35,
     cover:"../images/gomp-15.png"
   },
   {
-    id:16,
+    id:36,
     cover:"../images/gomp-16.png"
   },
   {
-    id:17,
+    id:37,
     cover:"../images/gomp-17.png"
   },
   {
-    id:18,
+    id:38,
     cover:"../images/gomp-18.png"
   },
   {
-    id:19,
+    id:39,
     cover:"../images/gomp-19.png"
   },
   {
-    id:20,
+    id:40,
     cover:"../images/gomp-20.png"
   },
   

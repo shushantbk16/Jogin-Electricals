@@ -6,11 +6,11 @@
 
 .gallery__grid {
   display: grid;
-  padding: 64px 0;
+  padding: 1.4rem 0;
   align-items: center;
   grid-template-columns: 1fr;
-  grid-gap: 10px;
-  max-width: 830px;
+  grid-gap: 4rem;
+  max-width: 100%;
   
   
   @media (min-width: 481px) {

@@ -23,7 +23,7 @@ const ModalWrapper = ({ photo, isModalToggled }) => {
               animation={animation}
               isModalToggled={isModalToggled}
             />
-          )
+          ) 
       )}
 
     </div>

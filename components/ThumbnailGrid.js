@@ -1,7 +1,7 @@
 import React from "react";
 import { ImageContext } from "../contexts/ImageContext";
 
-const ThumbnailGrid = () => {
+ const  ThumbnailGrid = () => {
   return (
     <ImageContext.Consumer>
       {imageContext => {
@@ -40,5 +40,4 @@ const ThumbnailGrid = () => {
     </ImageContext.Consumer>
   );
 };
-
-export default ThumbnailGrid;
+export default ThumbnailGrid
