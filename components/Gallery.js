@@ -59,7 +59,7 @@ const Gallery = () => {
           hidden: { opacity: 0, scale: 1,y:60 },
         }}
       >
-    <h2  className='Decorative' style={{marginTop:"10%"}}>Site Photos</h2>
+    <h2  className='Decorative' style={{marginTop:"10%"}}>Site photos</h2>
     </motion.div>
     <div style={{marginTop:"8%"}}>
     <ImageContext.Consumer>
