@@ -63,7 +63,7 @@ const Modal = ({ photo, animation }) => {
                       </g>
                     </svg>
                   </button>
-                  <ThumbnailGrid />
+                  {/* <ThumbnailGrid /> */}
                 </animated.div>
                 <button className="modal__button" onClick={toggleModal}>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 19">
