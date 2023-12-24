@@ -65,7 +65,7 @@ const Expertise = () => {
            <Link href={`/services#${item.id}`}>
             <div className="marketplace-portfolio" style={{position:"relative"}}>
               <div className="image-portfolio ">
-                <img src={item.cover} alt="marketplace-portfolio "  style={{ width:"18rem",height: "30vh"}}/>
+                <img src={item.cover} alt="marketplace-portfolio "  style={{ width:"16rem",height: "30vh"}}/>
               </div>
               <div className="name-portfolio ">
                 <h4 style={{fontSize:"0.9rem"}}>{item.title}</h4>
