@@ -94,8 +94,8 @@ the groundwork for a future-ready electrical infrastructure that can adapt to ev
 needs and technologies.</p>
 <div className='content-bar-images'>
   <div><img src='../images/htlt-1.jpeg' className='content-bar-image'/></div>
-  <div> <img src='../images/htlt-2.jpeg' className='content-bar-image'/></div>
-  <div> <img src='../images/htlt-3.jpeg' className='content-bar-image'/></div>
+  <div> <img src='../images/gomp-22.jpeg' className='content-bar-image'/></div>
+  <div> <img src='../images/gomp-21.jpeg' className='content-bar-image'/></div>
   <div> <img src='../images/htlt-4.jpeg' className='content-bar-image'/></div>
 </div>
 </div>
@@ -135,7 +135,7 @@ sources of light but also symbols of enduring quality and style.</p>
   <div><img src='../images/poles-1.jpg' className='content-bar-image'/></div>
   <div> <img src='../images/comp-4.png' className='content-bar-image'/></div>
   <div> <img src='../images/comp-5.png' className='content-bar-image'/></div>
-  <div> <img src='../images/poles-4.jpg' className='content-bar-image'/></div>
+  <div> <img src='../images/poles-42.png' className='content-bar-image'/></div>
 </div>
 </div>
 

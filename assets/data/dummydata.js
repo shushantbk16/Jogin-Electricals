@@ -705,11 +705,11 @@ export const projectDetails=[
     }
     ,{
       id:33,
-      cover:"../images/gomp-13.png"
+      cover:"../images/gomp-21.jpeg"
     },
     {
       id:34,
-      cover:"../images/gomp-14.png"
+      cover:"../images/gomp-22.jpeg"
     },
     {
       id:35,
