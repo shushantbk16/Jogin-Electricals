@@ -591,7 +591,7 @@ export const projectDetails=[
   },
   {
     id:4,
-    cover:"../images/comp-4.png"
+    cover:"../images/Srinagar Belagavi-resized.jpg"
   },
   {
     id:5,
@@ -646,11 +646,11 @@ export const projectDetails=[
   },
   {
     id:18,
-    cover:"../images/comp-18.png"
+    cover:"../images/Srinagar Main Road Belagavi-resized.jpg"
   },
   {
     id:19,
-    cover:"../images/comp-19.png"
+    cover:"../images/Temple Road Murdeshwar-resized.jpg"
   },
   {
     id:20,
