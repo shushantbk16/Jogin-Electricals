@@ -133,7 +133,7 @@ functionally and aesthetically. Illuminate your surroundings with poles that are
 sources of light but also symbols of enduring quality and style.</p>
 <div  className='content-bar-images'>
   <div><img src='../images/poles-1.jpg' className='content-bar-image'/></div>
-  <div> <img src='../images/comp-4.png' className='content-bar-image'/></div>
+  <div> <img src='../images/Temple Road Murdeshwar-resized.jpg' className='content-bar-image'/></div>
   <div> <img src='../images/comp-5.png' className='content-bar-image'/></div>
   <div> <img src='../images/poles-42.png' className='content-bar-image'/></div>
 </div>

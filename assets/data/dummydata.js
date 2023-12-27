@@ -579,7 +579,7 @@ export const projectDetails=[
  export const showcase4=[
   {
     id:1,
-    cover:"../images/comp-17.png"
+    // cover:"../images/comp-17.png"
   },
   {
     id:2,
@@ -587,7 +587,7 @@ export const projectDetails=[
   },
   {
     id:3,
-    cover:"../images/comp-3.png"
+     cover:"../images/IMG20210805102419 (1).jpg"
   },
   {
     id:4,
@@ -595,11 +595,11 @@ export const projectDetails=[
   },
   {
     id:5,
-    cover:"../images/comp-5.png"
+    cover:"../images/comp-10.png"
   },
   {
     id:6,
-    cover:"../images/comp-6.png"
+    cover:"../images/comp-13.png"
   },
   {
     id:7,
@@ -611,11 +611,11 @@ export const projectDetails=[
   },
   {
     id:9,
-    cover:"../images/comp-9.png"
+    cover:"../images/Dvg 3 (1).jpg"
   },
   {
     id:10,
-    cover:"../images/comp-10.png"
+    cover:"../images/Bauxite Road Belagavi. (1).jpg"
   },{
     id:11,
     cover:"../images/comp-11.png"
@@ -626,11 +626,11 @@ export const projectDetails=[
   }
   ,{
     id:13,
-    cover:"../images/comp-13.png"
+    cover:"../images/Picture3 (1).jpg"
   },
   {
     id:14,
-    cover:"../images/comp-14.png"
+    cover:"../images/comp-2.png"
   },
   {
     id:15,
@@ -638,7 +638,7 @@ export const projectDetails=[
   },
   {
     id:16,
-    cover:"../images/comp-2.png"
+    cover:"../images/Picture4 (1).jpg"
   },
   {
     id:17,
