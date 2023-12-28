@@ -126,7 +126,7 @@ export const showcase = [
   {
     id: 4,
     title: "HT/LT Line Design and Implementation",
-    cover: "../images/htlt-10.png",
+    cover: "../images/gomp-3 (2).png",
     catgeory: "Supply / Installation of Data UTP / CAT - 5 cables in under ground trench / floor with specially designed boxes.Supply / installation of Information outlets.",
     description:"Jogin Electricals is proficient in handling both High Tension Underground (HT UG) and Low Tension Underground (LT UG) cables, providing reliable solutions prioritizing safety and efficiency in power distribution."
   },
@@ -611,7 +611,7 @@ export const projectDetails=[
   },
   {
     id:9,
-    cover:"../images/Dvg 3 (1).jpg"
+    cover:"../images/Dvg 2(1) (1).jpg"
   },
   {
     id:10,
@@ -634,7 +634,7 @@ export const projectDetails=[
   },
   {
     id:15,
-    cover:"../images/comp-15.png"
+    cover:"../images/Dvg 3-01.jpeg (1).jpg"
   },
   {
     id:16,
@@ -666,7 +666,7 @@ export const projectDetails=[
     },
     {
       id:23,
-      cover:"../images/gomp-3.png"
+      cover:"../images/gomp-3 (2).png"
     },
     {
       id:24,
@@ -697,11 +697,11 @@ export const projectDetails=[
       cover:"../images/gomp-10.png"
     },{
       id:31,
-      cover:"../images/gomp-11.png"
+      cover:"../images/hi.PNG"
     }
     ,{
       id:32,
-      cover:"../images/gomp-12.png"
+      cover:"../images/hig.PNG"
     }
     ,{
       id:33,
